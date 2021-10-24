@@ -22,3 +22,6 @@ Profanity are “swear words, curse words, or other obscene or profane language
 
 Threat “describes an intention to inflict pain, injury, or violence against an individual or group.”
 
+Input: pass the comments from the CSV file to Perspective API 
+Output: save the returned 6 scores (Toxicity, Severe toxicity, Identity attack, Insult, Profanity, Threat)
+
