@@ -1,0 +1,24 @@
+---
+title: "Postive vs Negative Toxicity"
+author: "Sachin Shubham"
+date: "10/24/2021"
+output: pdf_document
+---
+
+```{r}
+
+postive_Toxicity<-c(0.2764734,0.31940153,0.04299651,0.3372036,0.0376969)
+
+negative_Toxicity<-c(0.111551166,0.12353452,0.23127103,0.59836775,0.15240628)
+
+t.test(postive_Toxicity,negative_Toxicity)
+
+```
+
+Our study finds that the  t-statistic = -0.35945, df = 7.3477, p=0.7294, 95% CI [-0.3056872  0.2243437].
+
+A big p(>=0.05), fail to reject the null hypothesis. 
+
+Therefore, this is strong evidence that the null hypothesis is valid.
+
+The p-value is larger than 0.05, we cannot conclude that is there a significant difference between the postive_Toxicity and negative_Toxicity exists 
